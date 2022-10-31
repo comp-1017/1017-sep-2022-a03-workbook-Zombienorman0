@@ -1,0 +1,99 @@
+body {
+    background: rgba(0, 0, 0, 0.01);
+    font-family: Verdana, sans-serif;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 100%;
+    line-height: 1.5
+}
+
+
+/*CLEAR FIX SOLLUTION*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+main{
+    background-color: lightgrey;
+    display: flex;
+}
+main > div 
+{
+    height: 200px;
+    width: 460px;
+    margin: 10px 0px 10px 10px;
+}
+.red-paint
+{
+    height: 300px;
+    width: 435px;
+    background-color: red;
+    margin-left: 37px;
+    border: solid 2px;
+}
+.red-paint:hover
+{
+    height: 310px;
+    width: 445px;
+    background-color: purple;
+    margin-left: 37px;
+    transition: 0.2s;
+    border: solid 2px;
+}
+.blue-paint
+{
+    height: 300px;
+    width: 435px;
+    background-color: blue;
+    border: solid 2px;
+}
+.blue-paint:hover
+{
+    height: 310px;
+    width: 445px;
+    background-color: purple;
+    margin-right: 37px;
+    transition: 0.2s;
+    border: solid 2px;
+}
+.black-paint{
+    
+    background-color: black;
+    height: 50px;
+    width: 880px;
+    margin: 0px 37px 37px 37px;
+}
+.black-paint:hover{
+    background-color: darkslategrey;
+    height: 50px;
+    width: 880px;
+    margin: 0px 37px 37px 37px;
+    transition: 0.2s;
+    border: solid 2px;
+}
+footer{
+    background-color: lightgray;
+    height: 60px;
+    display: flex;
+}
