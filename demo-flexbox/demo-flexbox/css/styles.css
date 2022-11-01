@@ -81,13 +81,13 @@ main > div
     
     background-color: black;
     height: 50px;
-    width: 880px;
+    width: 950px;
     margin: 0px 37px 37px 37px;
 }
 .black-paint:hover{
     background-color: darkslategrey;
     height: 50px;
-    width: 880px;
+    width: 895px;
     margin: 0px 37px 37px 37px;
     transition: 0.2s;
     border: solid 2px;
