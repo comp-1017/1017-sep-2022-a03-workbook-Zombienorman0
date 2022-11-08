@@ -8,4 +8,18 @@ body {
 	font-size: 100%;
 	line-height: 1.5;
 	text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1{
+	font-size: 96px;
+	letter-spacing: -1px;
+}
+h2{
+	font-size:36px;
+	color: #3d4243;
+}
+p{
+	font-size: 21px;
+	color: #9b9c9b;
 }
