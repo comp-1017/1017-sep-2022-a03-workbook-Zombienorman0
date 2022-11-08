@@ -9,6 +9,7 @@ body {
 	line-height: 1.5;
 	text-align: center;
 	font-family: 'Merriweather Sans', sans-serif;
+	border: 1px solid blue;
 }
 
 h1{
@@ -22,4 +23,27 @@ h2{
 p{
 	font-size: 21px;
 	color: #9b9c9b;
+}
+.pageheader p  {
+	font-size: 48px;
+
+}
+.page-header{
+	margin-top: 72px;
+	margin-bottom: 120px;
+}
+section{
+	margin: 0 24px;
+	margin-bottom: 196px;
+	padding: 0 24px;
+	border: 1px solid black
+}
+section p {
+	margin-bottom: 24px;
+}
+section header img{
+	width: 100px;
+}
+section footer img{
+	margin: 0 12px;
 }
